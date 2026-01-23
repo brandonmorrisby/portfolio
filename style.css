@@ -180,8 +180,8 @@ section {
 }
 
 .section__pic-container img {
-  width: 20vh;
-  height: 20vh;
+  width: 30vh;
+  height: 30vh;
   border-radius: 50%;
   object-fit: cover;
 }
