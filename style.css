@@ -154,6 +154,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  position: relative;
 }
 
 .section-container {
@@ -299,8 +300,17 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  right: 2rem; /* keep inside the viewport */
+  bottom: 2rem;
+  width: 3rem; /* adjust size as needed */
+  height: auto;
+  cursor: pointer;
+  z-index: 10; /* make sure it stays on top */
+  transition: transform 0.3s ease;
+}
+
+.icon.arrow:hover {
+  transform: translateY(-5px);
 }
 
 .details-container {
