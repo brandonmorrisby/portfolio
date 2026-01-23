@@ -177,10 +177,8 @@ section {
 }
 
 .section__pic-container img {
-  width: 200px;          /* adjust size as needed */
-  height: 200px;         /* must match width */
   border-radius: 50%;
-  object-fit: cover;     /* prevents stretching */
+  object-fit: cover;
 }
 
 .section__text {
